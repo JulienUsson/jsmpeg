@@ -1,0 +1,9 @@
+{
+  "name": "@julienusson/jsmpeg",
+  "version": "0.2.0",
+  "description": "JSMpeg – MPEG1 Video & MP2 Audio Decoder in JavaScript",
+  "main": "jsmpeg.min.js",
+  "repository": "git@github.com:JulienUsson/jsmpeg.git",
+  "author": "Dominic Szablewski <https://github.com/phoboslab>",
+  "license": "MIT"
+}
