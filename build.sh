@@ -105,11 +105,8 @@ cat \
 echo "JSMpeg.WASM_BINARY_INLINED='$(base64 -w 0 jsmpeg.wasm)';" \
 	>> jsmpeg.js
 
-
-# Minify
-uglifyjs jsmpeg.js -o jsmpeg.min.js
+npm run webpack
 
 # Cleanup
-rm jsmpeg.js
 rm jsmpeg.wasm
-
+rm jsmpeg.js
